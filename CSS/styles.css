@@ -1,0 +1,135 @@
+:root {
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --light-gray: rgba(255, 255, 255, 0.6);
+  --button-background: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text);
+  font-family: Roboto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--blue-color);
+}
+.header.logo {
+  color: var(--primary-text);
+}
+
+.footer.logo {
+  color: var(--white-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-color);
+}
+
+.section-title {
+  color: var(--primary-text);
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+.contacts-head {
+  color: var(--secondary-text);
+}
+
+.contacts-foot {
+  color: var(--light-gray);
+}
+
+.address-foot {
+  color: var(--white-color);
+}
+
+.contacts-foot:hover,
+.contacts-foot:focus,
+.contacts-head:hover,
+.contacts-head:focus,
+.address-foot:hover,
+.address-foot:focus {
+  color: var(--blue-color);
+}
+
+.main-title {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-text);
+  background-color: var(--button-background);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.button-main {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.button-main:hover,
+.button-main:focus {
+  color: var(--blue-color);
+  background-color: var(--white-color);
+}
+
+.strength {
+  color: var(--primary-text);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.strength-text {
+  color: var(--secondary-text);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.team {
+  color: var(--primary-text);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-job {
+  color: var(--secondary-text);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.project-name {
+  color: var(--primary-text);
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.project-type {
+  color: var(--secondary-text);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
